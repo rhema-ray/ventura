@@ -9,6 +9,71 @@
 body{
     height: 100%;
     width: 100%;
+    /* background-color: yellow; */
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+.parent{
+    display: block;
+    /* width: 1337.64px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* should not be apllied here come back to */
+}
+
+.home-slider{
+    display:block;
+    width: 100%;
+}
+
+/* landing page header */
+.parent .home-slider header{
+    display: flex;
+    z-index: 2;
+    height: 60px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 
+.home-slider header .logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 500;
+    font-family: airbnb cereal app;
+    font-size: 31px;
+    letter-spacing: 3.5px;
+}
+.home-slider header .logo span:nth-of-type(1){
+    color: rgb(154, 56, 245);
+}
+.home-slider header .logo span:nth-of-type(2){
+    color:#4b5fac;
+}
+
+
+.home-slider header nav{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-family: mada;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    width: auto;
+    user-select: none;
+}
+
+.parent .home-slider header nav span a{
+    color: #4b5fac;
+}
+
+.parent .home-slider header nav span:nth-child(1),
+.parent .home-slider header nav span:nth-child(2),
+.parent .home-slider header nav span:nth-child(3),
+.parent .home-slider header nav span:nth-child(4){
+    margin-right: 24px;
+}

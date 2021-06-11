@@ -1,0 +1,30 @@
+/* created by yours truly... me:) */
+
+.fade-in-downwards{
+    animation:fade-in-downwards;
+}
+
+
+@keyframes fade-in-downwards{
+    from{transform: translate(0,-25%);}
+    to{transform: translate(0,0);}
+    0%{opacity: 0;}
+    30%{
+    opacity: 0;
+    transform: translate(0,-25%)
+    }
+    100%{opacity: 1;
+        transform: translate(0,0)}
+}
+
+@-webkit-keyframes fade-in-downwards{
+    from{-webkit-transform: translate(0,-25%);}
+    to{-webkit-transform: translate(0,0);}
+    0%{-webkit-opacity: 0;}
+    30%{
+    -webkit-opacity: 0;
+    -webkit-transform: translate(0,-25%)
+    }
+    100%{-webkit-opacity: 1;
+        -webkit-transform: translate(0,0)}
+}
