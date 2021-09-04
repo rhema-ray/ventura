@@ -7,4 +7,5 @@ Please do not get your hopes up. This isn’t one of them fancy shmancy react pr
 4-09-2021 
 Ok this looks very different from the original version. As i stuggle to wonder why this bug exist the link to the live doc is here for context: https://1drv.ms/u/s!ApNGs_fYQZe1jX9cCs6FhTpMwamd?e=2nIe1I
 
+for the best, i'm restarting this design. From the top!
 Plus: This readme will continue to change as i add new features to this project. 
